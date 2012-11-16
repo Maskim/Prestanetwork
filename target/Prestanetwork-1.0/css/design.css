@@ -1,0 +1,85 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+hr{
+	height : 1px;
+	background-color : #c3c5c6;
+	color : #FFFFFF;
+	border : none;
+	margin : 0;
+	padding : 0;
+}
+
+a{
+	color : #FFFFFF;
+	font-family : 'Arial';
+	font-size : 13px;
+	font-weight : 600;
+	line-height : normal;
+	text-shadow : rgba(0, 0, 0, 0.496094)1px 1px 3px;
+	text-decoration : none;
+}
+
+#FO_header{
+	width : 100%;
+	background-image : url('../img/fo_bg_header.png');
+}
+
+#FO_Logo{
+	float : left;
+	width : 250px;
+	height : 35px;
+}
+
+#FO_version{
+	width : 100%;
+	height : 1px;
+	color : #090ef8;
+	font-weight : bold;
+	font-family : "Calibri", serif;
+	font-size : 12px;
+	padding-top : 30px;
+}
+
+#FO_Slogan{
+	margin-left : 50px;
+	width : 400px;
+	color : #333333;
+	font-family : "Calibri", serif;
+	font-size : 14px;
+}
+
+#FO_menu{
+	width : 100%;
+	display : none;
+}
+
+#FO_menu_bar{
+	margin-left : auto;
+	margin-right : auto;
+	width : 1004px;
+	height : 30px;
+	background-image : -webkit-linear-gradient(top, #84c7ff, #4aacff);
+	box-shadow : rgba(0, 0, 0, 0.296875)1px 1px 5px 0px;
+}
+
+div .menu{
+	float : left;
+	width : 200px;
+	height : 25px;
+	color : #FFFFFF;
+	border-right : 1px solid #FFFFFF;
+	text-align : center;
+	padding-top : 5px;
+}
+
+div .menu_end{
+	float : left;
+	width : 200px;
+	height : 30px;
+	color : #FFFFFF;
+	text-align : center;
+	padding-top : 5px;
+}
