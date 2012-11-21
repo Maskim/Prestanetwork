@@ -10,10 +10,10 @@
 </id>
 
 <property name="nom">
-<column name="nom_user" />
+<column name="nom" />
 
 <property name="prenom">
-<column name="prenom_user" />
+<column name="prenom" />
 
 </property>
 
