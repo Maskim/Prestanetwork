@@ -14,35 +14,62 @@ public class Projet {
     private String Nom;
     private String Description;
     private Prestataire prestataire;
-    private boolean estAssigne;
+    private boolean estAssignePrestataire;
+    private boolean estAssignePorteur;
+    private Porteur porteur;
     
     public String getNom(){
-       return "ProjetTEST";
+       return this.Nom;
     }
 
     public String getDescription() {
-        return "blablabla";
+        return this.Description;
     }
     
-    public Utilisateur getUtilisateur()
+    public boolean estAssignePorteur()
     {
-        return new Utilisateur("nom","prenom","email@test.fr","mdp");
+        return this.estAssignePorteur;
     }
     
-    public boolean estAssigne()
+    public boolean estAssignePrestataire()
     {
-        return this.estAssigne;
+        return this.estAssignePrestataire;
     }
     
-    public void assigne(Prestataire presta)
+    public void assignePrestataire(Prestataire presta)
     {
-        estAssigne = true;
+        estAssignePrestataire = true;
         this.prestataire = presta;
     }
     
     public Prestataire getPrestataire()
     {
-        return new Prestataire("nom","prenom","email@email.fr","mdp");
+        return this.prestataire;
+    }
+
+    public void assignePorteur(Porteur porteur) {
+        estAssignePorteur = true;
+        this.porteur = porteur;
+    }
+
+    public Porteur getPorteur() {
+        return this.porteur;
+    }
+
+    public void setNom(String nouveauNom) {
+        this.Nom = nouveauNom;
+    }
+
+    public void setDescription(String nouvelleDescription) {
+        this.Description = nouvelleDescription;
+    }
+
+    public void setPrestataire(Prestataire nouveauPrestataire) {
+        this.prestataire = nouveauPrestataire;
+    }
+
+    public void setPorteur(Porteur nouveauPorteur) {
+        this.porteur = nouveauPorteur;
     }
     
     
