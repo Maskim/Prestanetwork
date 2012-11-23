@@ -10,8 +10,8 @@ package epsi.prestanetwork.entity;
  */
 public class Prestataire extends Utilisateur{
 
-    public Prestataire( String nom, String prenom, String hello, String toto) {
-        super("meidi","caca","pipi","popo");
+    public Prestataire( String nom, String prenom, String email, String mdp) {
+        super(nom, prenom, email, mdp);
     }
     
 }

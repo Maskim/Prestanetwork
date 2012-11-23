@@ -26,8 +26,7 @@ public class Projet {
     
     public Utilisateur getUtilisateur()
     {
-        return null;
-        //return new Utilisateur();
+        return new Utilisateur("nom","prenom","email@test.fr","mdp");
     }
     
     public boolean estAssigne()
@@ -43,7 +42,7 @@ public class Projet {
     
     public Prestataire getPrestataire()
     {
-        return new Prestataire();
+        return new Prestataire("nom","prenom","email@email.fr","mdp");
     }
     
     

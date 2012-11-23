@@ -44,12 +44,14 @@ public class TestProjet {
     @Test
     public void projetAUnPrestataire() 
     {
-        //Assert.assertNotNull(this.pro.getPrestataire());
+        Assert.assertNotNull(this.pro.getPrestataire());
     }
     
     @Test
     public void projetAssigneAUnPrestataire() 
     {
-       //Assert.assertEquals(this.pro.assigne(new Prestataire()));
+        Prestataire presta = new Prestataire("nom","prenom","email@email.fr","mdp");
+        this.pro.assigne(presta);
+       Assert.assertNotNull(this.pro.getPrestataire());
     }
 }
